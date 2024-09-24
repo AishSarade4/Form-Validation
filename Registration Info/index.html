@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Information</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="leftSide"></div>
+      <div class="rightSide">
+        <h2>Registration Info</h2>
+
+        <form onsubmit="validateForm()" onreset="resetForm()">
+          <input type="text" size="40" placeholder="Name" id="fname" required />
+          <input
+            id="date"
+            type="text"
+            placeholder="Birth Date"
+            id="birthdate"
+            onfocus="this.type='date'"
+            onblur="this.type='text'"
+            required
+          /><br />
+          <select id="gender">
+            <option>Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option></select
+          ><br />
+          <input
+            type="email"
+            size="30"
+            id="email"
+            placeholder="Email"
+            required
+          /><br />
+          <input
+            type="tel"
+            size="30"
+            id="phone"
+            placeholder="Phone"
+            required
+          /><br />
+          <input id="button1" type="submit" value="Submit" />
+          <input id="button2" type="reset" value="Reset" />
+        </form>
+      </div>
+    </div>
+    <script src="./form.js"></script>
+  </body>
+</html>

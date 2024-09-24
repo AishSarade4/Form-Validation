@@ -1,0 +1,84 @@
+body{
+    background-image:linear-gradient(rgb(195, 161, 221), rgb(187,146,182)) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:41.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+div.leftSide{
+    width: 400px;
+    height: 600px;
+    background-image: url(./img/man-male-music-band.jpg);
+    background-size: cover;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+}
+div.rightSide{
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+input{
+    background-color:black;
+    padding: 18px;
+    margin: 10px;
+    border-top: none;
+    border-bottom: 2px solid gray;
+    border-left: none;
+    border-right: none;
+    width:250px;
+    color-scheme: dark;
+    margin-left: 60px;
+    
+}
+select{
+    background-color: transparent;
+    color: rgb(192, 192, 192);
+    padding: 18px;
+    width: 287px;
+    border-top: none;
+    border-bottom: 2px solid gray;
+    border-left: none;
+    border-right: none;
+    margin-left: 60px;
+}
+option{
+    background-color: black;
+}
+::placeholder{
+    color: rgb(192, 192, 192);
+    text-align: left;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+#button1{
+    background-color: rgb(87, 173, 0);
+    padding: 10px;
+    width: 90px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+   
+}
+#button2{
+    background-color: rgb(94, 185, 4);
+    padding: 10px;
+    width: 90px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}

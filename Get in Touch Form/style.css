@@ -1,0 +1,73 @@
+div.main{
+    width: 800px;
+    height: 650px;
+    background-color: rgb(208, 225, 246);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 400px;
+}
+div.container{
+    background-color: white;
+    border-radius: 10px;
+    width: 620px;
+    height: 500px;
+    position: relative;
+    top:75px;
+    left:85px;
+    color:rgb(81,101,238);
+}
+span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: 30px;
+    display:inline-block;
+    font-size: 35px;  
+}
+::placeholder{
+    color: rgb(65, 88, 237);
+    font-weight: 300;
+}
+input{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 50px;
+}
+#fname{
+    background-color: rgb(231,233,254);
+}
+#lname{
+    background-color: rgb(231,233,254);
+}
+#mail{
+     background-color: rgb(220,225,255);
+}
+#no{
+    background-color: rgb(220,225,255);
+}
+#address{
+    background-color: rgb(199,205,253);
+   
+}
+#message{
+    height: 50px;
+    background-color: rgb(165,177,253);
+}
+button{
+    padding: 12px;
+    margin-left: 240px;
+    margin-top: 20px;
+    width: 120px;
+    background-color:rgb(65, 88, 237) ;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    
+}
+button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
